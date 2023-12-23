@@ -1,0 +1,215 @@
+{
+	"errorBlank": "必須項目です。",
+	"projectnameInput": [
+		{
+			"projectName": "a"
+		},
+		{
+			"projectName": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the in",
+			"errorProjectName": "1の最小文字数文字以上100の最大文字数文字以下でご入力ください。"
+		}
+	],
+	"domainInput": [
+		{
+			"domainName": "ABC.DC-"
+		},
+		{
+			"domainName": "LoremIpsumissimplydummytextoftheprintingandtypesettingindustry.LoremIpsumhasbeentheindustrystandarddummy-texteversincethe1500swhenanunknownprinterookagalleyoftypeandscrambledittomakeatypespecimenbook.Ithassuraaaaaabbbbbbbbbbbbbbbbbbdddddddfkkkkkkkkkkkkkkk"
+		},
+		{
+			"domainName": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+			"errorDomain": "1の最小文字数文字以上255の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"domainName": "            ",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "12 test.enas-",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "ああかき",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "漢字",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "カタカタカナ",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "ｶﾀｶﾅ",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "ＴＥＳＴ",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "１１２３４５",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "!#$%&'()^@[;:],./=~|`{+*}<>?_ー一―",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		},
+		{
+			"domainName": "1234Testー一―",
+			"errorDomain": "サイトのドメインの形式が間違っています。"
+		}
+	],
+	"siteTypeDropdown": [
+		{
+			"siteType": "コーポレートサイト"
+		},
+		{
+			"siteType": "プロダクトサイト"
+		},
+		{
+			"siteType": "リクルートサイト"
+		},
+		{
+			"siteType": "ブランディングサイト"
+		},
+		{
+			"siteType": "オウンドメディア"
+		},
+		{
+			"siteType": "ランディングページ"
+		},
+		{
+			"siteType": "ECサイト"
+		},
+		{
+			"siteType": "キャンペーンサイト"
+		},
+		{
+			"siteType": "その他"
+		}
+	],
+	"sitePlanRadiobutton": [
+		{
+			"sitePlan": "自社サイト"
+		},
+		{
+			"sitePlan": "顧客のサイト"
+		}
+	],
+	"sizeStaffRadiobutton": [
+		{
+			"sizeStaff": "個人"
+		},
+		{
+			"sizeStaff": "1～10名"
+		},
+		{
+			"sizeStaff": "11～30名"
+		},
+		{
+			"sizeStaff": "31～50名"
+		},
+		{
+			"sizeStaff": "51～100名"
+		},
+		{
+			"sizeStaff": "101～300名"
+		},
+		{
+			"sizeStaff": "301～500名"
+		},
+		{
+			"sizeStaff": "501名以上"
+		}
+	],
+	"companyNameInput": [
+		{
+			"companyName": "ああかき"
+		},
+		{
+			"companyName": "漢字"
+		},
+		{
+			"companyName": "カタカタカナ"
+		},
+		{
+			"companyName": "ｶﾀｶﾅ"
+		},
+		{
+			"companyName": "ＴＥＳＴ"
+		},
+		{
+			"companyName": "１１２３４５"
+		},
+		{
+			"companyName": "!#$%&'()^@[;:],./=~|`{+*}<>?_ー一―"
+		},
+		{
+			"companyName": "ABC"
+		},
+		{
+			"companyName": "1234"
+		},
+		{
+			"companyName": "abc"
+		},
+		{
+			"companyName": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i",
+			"errorCompanyName": "100文字以下でご入力ください。"
+		}
+	],
+	"companyPhoneInput": [
+		{
+			"companyPhone": "0987654321"
+		},
+		{
+			"companyPhone": "09876543210"
+		},
+		{
+			"companyPhone": "098765432",
+			"errorCompanyPhone": "10 桁または11桁の値を入力してください。"
+		},
+		{
+			"companyPhone": "098765432103",
+			"errorCompanyPhone": "10 桁または11桁の値を入力してください。"
+		},
+		{
+			"companyPhone": "098765432 1",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": "ＴＥＳＴ",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": "１１２３４５",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": " ああかき",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": " 漢字",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": " カタカタカナ",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": " ｶﾀｶﾅ",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": "ABC",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		},
+		{
+			"companyPhone": "abc",
+			"errorCompanyPhone": "使用できる文字は半角数字のみです。"
+		}
+	]
+}

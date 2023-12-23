@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Headless Edge"
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="51.075">
+  <properties />
+  
+  
+            <testcase name="CA_302_05_PW_Wrong" time="0.766" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA300_03_Email_Wrong_Format" time="0.903" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA300_02_Email_Blank" time="0.096" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA300_05_Email_Success" time="10.305" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA300_04_Email_Invalid" time="0.305" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA302_02_Check_UI" time="0.468" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA_302_07_Rest_PW_Success" time="2.793" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA_302_08_Login_NewPW" time="7.047" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA_302_06_ConfirmPW_No_Duplicate" time="0.279" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA302_03_PW_BLANK" time="0.176" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA302_01_Check_Mail" time="26.796" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA_302_04_PW_Less_8_32" time="0.281" classname="ProjectEnas.UserRestPW" />
+                <testcase name="CA300_01_Check_UI" time="0.860" classname="ProjectEnas.UserRestPW" />
+      
+</testsuite>

@@ -1,0 +1,189 @@
+{
+	"nameUser": "daoly",
+	"emailExist": "testamela21@outlook.com",
+	"emailSuccess": "testamela21+01@outlook.com",
+	"password": "Amela@123",
+	"confirmPassword": "Amela@123",
+	"errorTextBlank": "必須項目です。",
+	"errorTextEmailExist": "メールアドレスは既に登録されています。",
+	"passwordNew": "Amela@1234",
+	"nameInput": [
+		{
+			"name": "あかひこ"
+		},
+		{
+			"name": "アキコケク"
+		},
+		{
+			"name": "1234"
+		},
+		{
+			"name": "１２３４",
+			"errorName": "ひらがなや漢字、カタカナや半角英数字でご入力ください。"
+		},
+		{
+			"name": "ｱﾋｸｹｺ",
+			"errorName": "ひらがなや漢字、カタカナや半角英数字でご入力ください。"
+		},
+		{
+			"name": "Ly test @#$!",
+			"errorName": "ひらがなや漢字、カタカナや半角英数字でご入力ください。"
+		},
+		{
+			"name": "a",
+			"errorName": "2の最小文字数文字以上30の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"name": "Lorem Ipsum is simply dummy abc",
+			"errorName": "2の最小文字数文字以上30の最大文字数文字以下でご入力ください。"
+		}
+	],
+	"emailInput": [
+		{
+			"email": "daolytest@amela.vn"
+		},
+		{
+			"email": "test-._!#$*+/^‘=?~{|}&%@gmail.com"
+		},
+		{
+			"email": "1222@1.vn"
+		},
+		{
+			"email": "ly11111111111111111111111111111111111111111111111111111111111113@gmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmail.com"
+		},
+		{
+			"email": "daoly@",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		},
+		{
+			"email": "@daoly",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		},
+		{
+			"email": "ly@-gmail.com",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		},
+		{
+			"email": "ly@gmail..com",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		},
+		{
+			"email": "test@gmail.-",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		},
+		{
+			"email": "a@a.v",
+			"errorEmail": "6の最小文字数文字以上254の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"email": "ly11111111111111111111111111111111111111111111111111111111111113@gmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailg.com",
+			"errorEmail": "6の最小文字数文字以上254の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"email": "ly111111111111111111111111111111111111111111111111111111111111134@gmail.com",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		},
+		{
+			"email": "daothily @gmail.com",
+			"errorEmail": "メールアドレスの形式が間違っています。"
+		}
+	],
+	"passwordInput": [
+		{
+			"password": "Amela@12",
+			"confirmPassword": "Amela@12"
+		},
+		{
+			"password": "%&'()^@[;:],./=~|`{+*}<>?_-Da123",
+			"confirmPassword": "%&'()^@[;:],./=~|`{+*}<>?_-Da123"
+		},
+		{
+			"password": "Da123ー一−‐―-",
+			"confirmPassword": "Da123ー一−‐―-"
+		},
+		{
+			"password": "        ",
+			"confirmPassword": "        ",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "Amela@1",
+			"confirmPassword": "Amela@1",
+			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
+			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"password": "4%&'()^@[;:],./=~|`{+*}<>?_-Da123",
+			"confirmPassword": "4%&'()^@[;:],./=~|`{+*}<>?_-Da123",
+			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
+			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"password": "Amela12",
+			"confirmPassword": "Amela12",
+			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
+			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"password": "testenas",
+			"confirmPassword": "testenas",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "TESTENAS",
+			"confirmPassword": "TESTENAS",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "12345678",
+			"confirmPassword": "12345678",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "&'()^@[;",
+			"confirmPassword": "&'()^@[;",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "ひらあなDa123@",
+			"confirmPassword": "ひらあなDa123@",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "カタカナDa123@",
+			"confirmPassword": "カタカナDa123@",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "ｶﾀｶﾅDa123.",
+			"confirmPassword": "ｶﾀｶﾅDa123.",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "１２３Da123@@",
+			"confirmPassword": "１２３Da123@@",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "ａｂｃDa123@",
+			"confirmPassword": "ａｂｃDa123@",
+			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
+			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
+		},
+		{
+			"password": "Amela@123",
+			"confirmPassword": "Amela@1234",
+			"errorPassword": "",
+			"errorConfirmPassword": "確認用パスワードが一致していません。"
+		}
+	]
+}

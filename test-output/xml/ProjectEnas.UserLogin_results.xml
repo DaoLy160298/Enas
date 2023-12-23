@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Headless Edge"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.608">
+  <properties />
+  
+  
+            <testcase name="CA000_02_Check_TextLink" time="2.227" classname="ProjectEnas.UserLogin" />
+                <testcase name="CA000_05_Email_InValid" time="1.810" classname="ProjectEnas.UserLogin" />
+                <testcase name="CA000_01_CheckUI" time="0.331" classname="ProjectEnas.UserLogin" />
+                <testcase name="CA000_07_Login_Success" time="6.314" classname="ProjectEnas.UserLogin" />
+                <testcase name="CA000_03_Email_Blank" time="0.352" classname="ProjectEnas.UserLogin" />
+                <testcase name="CA000_06_Password_InValid" time="0.854" classname="ProjectEnas.UserLogin" />
+                <testcase name="CA000_04_Password_Blank" time="0.720" classname="ProjectEnas.UserLogin" />
+      
+</testsuite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Enas Project">
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+		<!--	<listener class-name="reportConfig.ReportNGListener"></listener>-->
+		<!--<listener class-name="reportConfig.ExtentTestListener"></listener>-->
+		<listener class-name="reportConfig.AllureTestListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	<!--	<parameter name="urlAdmin" value="http://localhost:8080/wp-admin"></parameter>
+	<parameter name="urlUser" value="http://localhost:8080"></parameter>-->
+	<test name="Run on Headless Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<!--<class name="ProjectEnas.UserRegister_Step1_SendEmail" />-->
+			<class name="ProjectEnas.DemoDrapDrop" />
+		<!--	<class name="ProjectEnas.UserLogin" />
+			<class name="ProjectEnas.UserRestPW" />-->
+		</classes>
+	</test>
+	<!--<test name="Run on Headless Edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+		<class name="ProjectEnas.UserRegister_Step1_SendEmail" />
+			<class name="ProjectEnas.UserRegister_Step2_Membership" />
+			<class name="ProjectEnas.UserLogin" />
+			<class name="ProjectEnas.UserRestPW" />
+		</classes>
+	</test>-->
+</suite>

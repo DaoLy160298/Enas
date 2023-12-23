@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Headless Chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.271">
+  <properties />
+  
+  
+            <testcase name="Demo_Drap_Drop" time="6.271" classname="ProjectEnas.DemoDrapDrop" />
+      
+</testsuite>

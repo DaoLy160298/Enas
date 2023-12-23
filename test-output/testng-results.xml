@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T15:00:57Z" name="Enas Project" finished-at="2023-12-22T15:01:09Z" duration-ms="11521">
+    <groups>
+    </groups>
+    <test started-at="2023-12-22T15:00:57Z" name="Run on Headless Chrome" finished-at="2023-12-22T15:01:09Z" duration-ms="11521">
+      <class name="ProjectEnas.DemoDrapDrop">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:ProjectEnas.DemoDrapDrop@2e8a1ab4]" started-at="2023-12-22T15:00:57Z" name="initBeforeSuite" finished-at="2023-12-22T15:00:57Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:ProjectEnas.DemoDrapDrop@2e8a1ab4]" started-at="2023-12-22T15:00:57Z" name="beforeClass" finished-at="2023-12-22T15:01:02Z" duration-ms="5124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Demo_Drap_Drop()[pri:0, instance:ProjectEnas.DemoDrapDrop@2e8a1ab4]" started-at="2023-12-22T15:01:02Z" name="Demo_Drap_Drop" finished-at="2023-12-22T15:01:08Z" duration-ms="6271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo_Drap_Drop -->
+      </class> <!-- ProjectEnas.DemoDrapDrop -->
+    </test> <!-- Run on Headless Chrome -->
+  </suite> <!-- Enas Project -->
+</testng-results>
