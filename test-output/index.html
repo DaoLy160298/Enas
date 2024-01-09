@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Enas_Project" class="navigator-link">
-              <span class="suite-name border-passed">Enas Project</span>
+              <span class="suite-name border-failed">Enas Project</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Enas_Project" class="hide-methods failed suite-Enas_Project"> (hide)</a> <!-- hide-methods failed suite-Enas_Project -->
+                      <a href="#" panel-name="suite-Enas_Project" class="show-methods failed suite-Enas_Project"> (show)</a> <!-- show-methods failed suite-Enas_Project -->
+                    </span>
+                    <div class="method-list-content failed suite-Enas_Project">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC01b_Check_UI_Form">TC01b_Check_UI_Form</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Enas_Project -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,47 @@
                     <div class="method-list-content passed suite-Enas_Project">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.DemoDrapDrop" class="method navigator-link" hash-for-method="Demo_Drap_Drop">Demo_Drap_Drop</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC01a_Check_UI_Menu">TC01a_Check_UI_Menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_03_Check_change_value_Title_Component">TC_03_Check_change_value_Title_Component</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_04_Check_change_value_Sample_Explanation">TC_04_Check_change_value_Sample_Explanation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_05_Check_change_value_General_Explanation">TC_05_Check_change_value_General_Explanation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_06_Check_change_value_Additional_Explanation">TC_06_Check_change_value_Additional_Explanation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_07_Duplicate_Component">TC_07_Duplicate_Component</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_08_Delete_Component">TC_08_Delete_Component</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_09_Move_Up_Component">TC_09_Move_Up_Component</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enas_Project" title="ProjectEnas.CF201_Email" class="method navigator-link" hash-for-method="TC_10_Move_Down_Component">TC_10_Move_Down_Component</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Enas_Project -->
@@ -117,17 +171,101 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Enas_Project" class="panel Enas_Project">
-          <div class="suite-Enas_Project-class-passed">
+          <div class="suite-Enas_Project-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ProjectEnas.DemoDrapDrop</span>
+              <img src="failed.png"/>
+              <span class="class-name">ProjectEnas.CF201_Email</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Demo_Drap_Drop">
-                  </a> <!-- Demo_Drap_Drop -->
-                  <span class="method-name">Demo_Drap_Drop</span>
+                  <a name="TC01b_Check_UI_Form">
+                  </a> <!-- TC01b_Check_UI_Form -->
+                  <span class="method-name">TC01b_Check_UI_Form</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(), &apos;%s&apos;) and @contenteditable=&apos;false&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.131, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\LyDT\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59541/devtoo..., se:cdpVersion: 120.0.6099.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f8efb7ea787ccef2c40e287936b1b68
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at commons.BasePage.waitForElementVisible(BasePage.java:644)
+	at pageObject.CommonDrapDropPO.getColorSampleTextForm(CommonDrapDropPO.java:205)
+	at ProjectEnas.CF201_Email.TC01b_Check_UI_Form(CF201_Email.java:93)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Enas_Project-class-failed -->
+          <div class="suite-Enas_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ProjectEnas.CF201_Email</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01a_Check_UI_Menu">
+                  </a> <!-- TC01a_Check_UI_Menu -->
+                  <span class="method-name">TC01a_Check_UI_Menu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_Check_change_value_Title_Component">
+                  </a> <!-- TC_03_Check_change_value_Title_Component -->
+                  <span class="method-name">TC_03_Check_change_value_Title_Component</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_Check_change_value_Sample_Explanation">
+                  </a> <!-- TC_04_Check_change_value_Sample_Explanation -->
+                  <span class="method-name">TC_04_Check_change_value_Sample_Explanation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_Check_change_value_General_Explanation">
+                  </a> <!-- TC_05_Check_change_value_General_Explanation -->
+                  <span class="method-name">TC_05_Check_change_value_General_Explanation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_Check_change_value_Additional_Explanation">
+                  </a> <!-- TC_06_Check_change_value_Additional_Explanation -->
+                  <span class="method-name">TC_06_Check_change_value_Additional_Explanation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_07_Duplicate_Component">
+                  </a> <!-- TC_07_Duplicate_Component -->
+                  <span class="method-name">TC_07_Duplicate_Component</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08_Delete_Component">
+                  </a> <!-- TC_08_Delete_Component -->
+                  <span class="method-name">TC_08_Delete_Component</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_09_Move_Up_Component">
+                  </a> <!-- TC_09_Move_Up_Component -->
+                  <span class="method-name">TC_09_Move_Up_Component</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_10_Move_Down_Component">
+                  </a> <!-- TC_10_Move_Down_Component -->
+                  <span class="method-name">TC_10_Move_Down_Component</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +289,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Run on Headless Chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ProjectEnas.DemoDrapDrop&quot;/&gt;
+      &lt;class name=&quot;ProjectEnas.CF201_Email&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Run on Headless Chrome --&gt;
 &lt;/suite&gt; &lt;!-- Enas Project --&gt;
@@ -191,16 +329,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Demo_Drap_Drop')
-data.setCell(0, 2, 'ProjectEnas.DemoDrapDrop')
-data.setCell(0, 3, 6271);
+data.setCell(0, 1, 'TC01b_Check_UI_Form')
+data.setCell(0, 2, 'ProjectEnas.CF201_Email')
+data.setCell(0, 3, 30259);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC01a_Check_UI_Menu')
+data.setCell(1, 2, 'ProjectEnas.CF201_Email')
+data.setCell(1, 3, 8115);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_05_Check_change_value_General_Explanation')
+data.setCell(2, 2, 'ProjectEnas.CF201_Email')
+data.setCell(2, 3, 3536);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_06_Check_change_value_Additional_Explanation')
+data.setCell(3, 2, 'ProjectEnas.CF201_Email')
+data.setCell(3, 3, 3500);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_03_Check_change_value_Title_Component')
+data.setCell(4, 2, 'ProjectEnas.CF201_Email')
+data.setCell(4, 3, 3154);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_04_Check_change_value_Sample_Explanation')
+data.setCell(5, 2, 'ProjectEnas.CF201_Email')
+data.setCell(5, 3, 1428);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_07_Duplicate_Component')
+data.setCell(6, 2, 'ProjectEnas.CF201_Email')
+data.setCell(6, 3, 182);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_09_Move_Up_Component')
+data.setCell(7, 2, 'ProjectEnas.CF201_Email')
+data.setCell(7, 3, 168);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_08_Delete_Component')
+data.setCell(8, 2, 'ProjectEnas.CF201_Email')
+data.setCell(8, 3, 148);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_10_Move_Down_Component')
+data.setCell(9, 2, 'ProjectEnas.CF201_Email')
+data.setCell(9, 3, 127);
 window.suiteTableData['Enas_Project']= { tableData: data, tableDiv: 'times-div-Enas_Project'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-Enas_Project">
               </div> <!-- times-div-Enas_Project -->
             </div> <!-- times-div -->
@@ -226,18 +400,56 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ProjectEnas.DemoDrapDrop</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ProjectEnas.CF201_Email</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">initBeforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass(chrome)</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">58 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Demo_Drap_Drop</span>
-                <span class="method-start">5185 ms</span>
+                <span class="method-name">TC01a_Check_UI_Menu</span>
+                <span class="method-start">5085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01b_Check_UI_Form</span>
+                <span class="method-start">13288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_03_Check_change_value_Title_Component</span>
+                <span class="method-start">43725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_04_Check_change_value_Sample_Explanation</span>
+                <span class="method-start">46882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_05_Check_change_value_General_Explanation</span>
+                <span class="method-start">48314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_06_Check_change_value_Additional_Explanation</span>
+                <span class="method-start">51851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_07_Duplicate_Component</span>
+                <span class="method-start">55353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_08_Delete_Component</span>
+                <span class="method-start">55537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_09_Move_Up_Component</span>
+                <span class="method-start">55687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_10_Move_Down_Component</span>
+                <span class="method-start">55856 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

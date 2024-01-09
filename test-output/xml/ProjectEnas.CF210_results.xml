@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Headless Chrome"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="27.623">
+  <properties />
+  
+  
+            <testcase name="TC02_Click_On_Switch_Required" time="5.436" classname="ProjectEnas.CF210" />
+                <testcase name="TC_05_Check_change_value_General_Explanation" time="4.038" classname="ProjectEnas.CF210" />
+                <testcase name="TC_06_Check_change_value_Additional_Explanation" time="3.931" classname="ProjectEnas.CF210" />
+                <testcase name="TC_03_Check_change_value_Title_Component" time="4.340" classname="ProjectEnas.CF210" />
+                <testcase name="TC_04_Check_change_value_Sample_Explanation" time="2.220" classname="ProjectEnas.CF210" />
+                <testcase name="TC01_Demo_Drap_Drop" time="7.658" classname="ProjectEnas.CF210" />
+      
+</testsuite>

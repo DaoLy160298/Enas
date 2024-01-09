@@ -5,7 +5,7 @@ import java.io.File;
 public class GlobalConstants {
 	//DEV
 	public static final String PORTAL_DEV_URL = "https://form-build.dev.stack-product.com/auth/login/";
-	public static final String STG_URL = "https://stg.form-build.stack-product.com/auth/login/";
+	public static final String STG_URL = "https://form-build.stg.stack-product.com/auth/login/";
 	
 	//TESTING
 	public static final String PORTAL_TESTING_URL = "";
@@ -35,4 +35,6 @@ public class GlobalConstants {
 	public static final long SHORT_TIMEOUT = 5;
 	public static final long LONG_TIMEOUT = 30;
 	public static final long RETRY_TEST_FAIL= 3;
+	public static final String DEV_FORM_EDIT = "https://form-build.dev.stack-product.com/survey/form-edit";
+	public static final String STG_FORM_EDIT = "https://form-build.stg.stack-product.com/survey/form-edit/";
   }

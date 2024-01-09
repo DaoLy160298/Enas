@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ProjectEnas.UserRegister_Step1_SendEmail">
+      <class name="ProjectEnas.CF307_SelectOption">
         <methods>
-          <include name="CA200_02_CheckTextLink"/>
+          <include name="TC01a_Check_UI_Menu"/>
           <include name="beforeClass"/>
+          <include name="TC01b_Check_UI_Form"/>
+          <include name="TC02_Click_On_Switch_Required"/>
           <include name="initBeforeSuite"/>
         </methods>
-      </class> <!-- ProjectEnas.UserRegister_Step1_SendEmail -->
+      </class> <!-- ProjectEnas.CF307_SelectOption -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

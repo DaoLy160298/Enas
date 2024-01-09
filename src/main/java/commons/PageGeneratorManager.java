@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pageObject.CommonPO;
 import pageObject.CommonPO2;
-import pageObject.DemoDrapDropPO;
+import pageObject.CommonDrapDropPO;
 import pageObject.Login_ThirdPO;
 import pageObject.UserRestPWCA300PO;
 import pageObject.UserRestPWCA302PO;
@@ -48,7 +48,7 @@ public class PageGeneratorManager {
 	public static UserRegisterCA203PO getUserRegisterCA203Page(WebDriver driver) {
 		return new UserRegisterCA203PO(driver);
 	}
-	public static DemoDrapDropPO getDemoDrapDropPage(WebDriver driver) {
-		return new DemoDrapDropPO(driver);
+	public static CommonDrapDropPO getCommonDrapDropPage(WebDriver driver) {
+		return new CommonDrapDropPO(driver);
 	}
 }

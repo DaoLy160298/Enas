@@ -1,0 +1,68 @@
+{
+	"titleFullNameInput":[
+		{"fullNameTitle": "あ"},
+		{"fullNameTitle": "山口"},
+		{"fullNameTitle": "アｱ"},
+		{"fullNameTitle": "Aa"},
+		{"fullNameTitle": "Ａｂ"},
+		{"fullNameTitle": "123"},
+		{"fullNameTitle": "２３"},
+		{"fullNameTitle": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"fullNameTitle": "ー」、。"}
+	],
+	"lastNameInput":[
+		{"lastName": "あ"},
+		{"lastName": "山口"},
+		{"lastName": "アｱ"},
+		{"lastName": "Aa"},
+		{"lastName": "Ａｂ"},
+		{"lastName": "123"},
+		{"lastName": "２３"},
+		{"lastName": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"lastName": "ー」、。"}
+	],
+	"firstNameInput":[
+		{"firstName": "あ"},
+		{"firstName": "山口"},
+		{"firstName": "アｱ"},
+		{"firstName": "Aa"},
+		{"firstName": "Ａｂ"},
+		{"firstName": "123"},
+		{"firstName": "２３"},
+		{"firstName": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"firstName": "ー」、。"}
+	],
+	"titleCFuriganaInput":[
+		{"furiganaTitle": "あ"},
+		{"furiganaTitle": "山口"},
+		{"furiganaTitle": "アｱ"},
+		{"furiganaTitle": "Aa"},
+		{"furiganaTitle": "Ａｂ"},
+		{"furiganaTitle": "123"},
+		{"furiganaTitle": "２３"},
+		{"furiganaTitle": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"furiganaTitle": "ー」、。"}
+	],
+	"lastNameFuriInput":[
+		{"lastNameFuri": "あ"},
+		{"lastNameFuri": "山口"},
+		{"lastNameFuri": "アｱ"},
+		{"lastNameFuri": "Aa"},
+		{"lastNameFuri": "Ａｂ"},
+		{"lastNameFuri": "123"},
+		{"lastNameFuri": "２３"},
+		{"lastNameFuri": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"lastNameFuri": "ー」、。"}
+	],
+	"firstNameFuriInput":[
+		{"firstNameFuri": "あ"},
+		{"firstNameFuri": "山口"},
+		{"firstNameFuri": "アｱ"},
+		{"firstNameFuri": "Aa"},
+		{"firstNameFuri": "Ａｂ"},
+		{"firstNameFuri": "123"},
+		{"firstNameFuri": "２３"},
+		{"firstNameFuri": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"firstNameFuri": "ー」、。"}
+	]
+}

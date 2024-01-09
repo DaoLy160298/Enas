@@ -30,10 +30,10 @@ public class UserHomePO extends BasePage{
 		return getPageUrl(driver);
 	}
 
-	public DemoDrapDropPO openPageDemo(String url) {
+	public CommonDrapDropPO openPageDemo(String url) {
 		sleepInSecond(5);
 		openNewTab(driver, url);
-		return PageGeneratorManager.getDemoDrapDropPage(driver);
+		return PageGeneratorManager.getCommonDrapDropPage(driver);
 	}
 
 }
