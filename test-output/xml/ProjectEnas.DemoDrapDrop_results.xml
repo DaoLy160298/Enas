@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on Headless Chrome"
-           tests="1"
+           tests="5"
            failures="0"
            errors="0"
            skipped="0"
-           time="6.271">
+           time="14.573">
   <properties />
   
   
-            <testcase name="Demo_Drap_Drop" time="6.271" classname="ProjectEnas.DemoDrapDrop" />
+            <testcase name="TC_04_Check_change_value_General_Explanation" time="0.539" classname="ProjectEnas.DemoDrapDrop" />
+                <testcase name="TC01_Demo_Drap_Drop" time="7.313" classname="ProjectEnas.DemoDrapDrop" />
+                <testcase name="TC02_Click_On_Switch_Required" time="5.425" classname="ProjectEnas.DemoDrapDrop" />
+                <testcase name="TC_05_Check_change_value_Additional_Explanation" time="0.722" classname="ProjectEnas.DemoDrapDrop" />
+                <testcase name="TC_03_Check_change_value_Title_Component" time="0.574" classname="ProjectEnas.DemoDrapDrop" />
       
 </testsuite>

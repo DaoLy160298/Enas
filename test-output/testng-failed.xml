@@ -10,14 +10,13 @@
   <test thread-count="5" name="Run on Headless Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="ProjectEnas.DemoDrapDrop">
+      <class name="ProjectEnas.CF201_Email">
         <methods>
-          <include name="afterClass"/>
-          <include name="Demo_Drap_Drop"/>
+          <include name="TC01b_Check_UI_Form"/>
           <include name="beforeClass"/>
           <include name="initBeforeSuite"/>
         </methods>
-      </class> <!-- ProjectEnas.DemoDrapDrop -->
+      </class> <!-- ProjectEnas.CF201_Email -->
     </classes>
   </test> <!-- Run on Headless Chrome(failed) -->
 </suite> <!-- Failed suite [Enas Project] -->

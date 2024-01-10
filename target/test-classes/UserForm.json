@@ -1,0 +1,46 @@
+{
+	"titleComponentInput":[
+		{"titleComponent": "あ"},
+		{"titleComponent": "山口"},
+		{"titleComponent": "アｱ"},
+		{"titleComponent": "Aa"},
+		{"titleComponent": "Ａｂ"},
+		{"titleComponent": "123"},
+		{"titleComponent": "２３"},
+		{"titleComponent": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"titleComponent": "ー」、。"}
+	],
+	"sampleTextInput":[
+		{"sampleText": "あ"},
+		{"sampleText": "山口"},
+		{"sampleText": "アｱ"},
+		{"sampleText": "Aa"},
+		{"sampleText": "Ａｂ"},
+		{"sampleText": "123"},
+		{"sampleText": "２３"},
+		{"sampleText": "~!@#$%^&*()_+`-={}[]:;"},
+		{"sampleText": "ー」、。"}
+	],
+	"generalExplantionTextarea":[
+		{"generalExplantion": "あ"},
+		{"generalExplantion": "山口"},
+		{"generalExplantion": "アｱ"},
+		{"generalExplantion": "Aa"},
+		{"generalExplantion": "Ａｂ"},
+		{"generalExplantion": "123"},
+		{"generalExplantion": "２３"},
+		{"generalExplantion": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"generalExplantion": " （）　￥　／"}
+	],
+	"additionalExplantionTextarea":[
+		{"additionalExplantion": "あ"},
+		{"additionalExplantion": "山口"},
+		{"additionalExplantion": "アｱ"},
+		{"additionalExplantion": "Aa"},
+		{"additionalExplantion": "Ａｂ"},
+		{"additionalExplantion": "123"},
+		{"additionalExplantion": "２３"},
+		{"additionalExplantion": "~!@#$%^&*()_+`-={}[]:;'|?,./"},
+		{"additionalExplantion": " （）　￥　／"}
+	]
+}

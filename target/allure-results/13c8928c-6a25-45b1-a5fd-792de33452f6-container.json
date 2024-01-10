@@ -1,0 +1,1 @@
+{"uuid":"13c8928c-6a25-45b1-a5fd-792de33452f6","name":"Enas Project","children":["bc40ed14-6ff0-456c-b312-bd07b69a41a1"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1704275387891,"stop":1704275387901}],"afters":[],"start":1704275387860,"stop":1704275491463}

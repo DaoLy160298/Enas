@@ -226,6 +226,10 @@ public class BasePage {
 		element.clear();
 		element.sendKeys(textValue);
 	}
+	public void sendkeyValueFirstToElement(WebDriver driver, String locatorType, String textValue) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(textValue);
+	}
 
 	public void clearValueInElementPressKey(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
@@ -497,6 +501,10 @@ public class BasePage {
 	}
 
 	public boolean isElementSelected(WebDriver driver, String locatorType) {
+		return getWebElement(driver, locatorType).isSelected();
+	}
+	public boolean isElementSelected(WebDriver driver, String locatorType, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		return getWebElement(driver, locatorType).isSelected();
 	}
 
@@ -788,6 +796,18 @@ public class BasePage {
 		 // Tạo đối tượng Actions
         Actions actions = new Actions(driver);
         actions.dragAndDrop(getWebElement(driver, locatorType), getWebElement(driver, dropPosition)).perform();
+	}
+	public void UploadImaJS(WebDriver driver,String locatorType,String filePath) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].style.display='block';", getWebElement(driver,locatorType));
+        js.executeScript("arguments[0].setAttribute('value', arguments[1]);", getWebElement(driver,locatorType), filePath);
+	}
+	
+	public void UploadImaJS(WebDriver driver, String locatorType,String filePath, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].style.display='block';", getWebElement(driver,locatorType, dynamicValues));
+        js.executeScript("arguments[0].setAttribute('value', arguments[1]);", getWebElement(driver,locatorType, dynamicValues), filePath);
 	}
 
 	public long longTimeout = GlobalConstants.LONG_TIMEOUT;

@@ -52,6 +52,14 @@
 			"email": "ly11111111111111111111111111111111111111111111111111111111111113@gmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmail.com"
 		},
 		{
+			"email": "a@a.v",
+			"errorEmail": "6の最小文字数文字以上254の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"email": "ly11111111111111111111111111111111111111111111111111111111111113@gmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailg.com",
+			"errorEmail": "6の最小文字数文字以上254の最大文字数文字以下でご入力ください。"
+		},
+		{
 			"email": "daoly@",
 			"errorEmail": "メールアドレスの形式が間違っています。"
 		},
@@ -70,14 +78,6 @@
 		{
 			"email": "test@gmail.-",
 			"errorEmail": "メールアドレスの形式が間違っています。"
-		},
-		{
-			"email": "a@a.v",
-			"errorEmail": "6の最小文字数文字以上254の最大文字数文字以下でご入力ください。"
-		},
-		{
-			"email": "ly11111111111111111111111111111111111111111111111111111111111113@gmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailgmailg.com",
-			"errorEmail": "6の最小文字数文字以上254の最大文字数文字以下でご入力ください。"
 		},
 		{
 			"email": "ly111111111111111111111111111111111111111111111111111111111111134@gmail.com",
@@ -106,24 +106,6 @@
 			"confirmPassword": "        ",
 			"errorPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。",
 			"errorConfirmPassword": "半角英数字（大文字小文字混在）、記号を組み合わせたものにしてください。"
-		},
-		{
-			"password": "Amela@1",
-			"confirmPassword": "Amela@1",
-			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
-			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
-		},
-		{
-			"password": "4%&'()^@[;:],./=~|`{+*}<>?_-Da123",
-			"confirmPassword": "4%&'()^@[;:],./=~|`{+*}<>?_-Da123",
-			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
-			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
-		},
-		{
-			"password": "Amela12",
-			"confirmPassword": "Amela12",
-			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
-			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
 		},
 		{
 			"password": "testenas",
@@ -184,6 +166,24 @@
 			"confirmPassword": "Amela@1234",
 			"errorPassword": "",
 			"errorConfirmPassword": "確認用パスワードが一致していません。"
+		},
+		{
+			"password": "Amela@1",
+			"confirmPassword": "Amela@1",
+			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
+			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"password": "4%&'()^@[;:],./=~|`{+*}<>?_-Da123",
+			"confirmPassword": "4%&'()^@[;:],./=~|`{+*}<>?_-Da123",
+			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
+			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
+		},
+		{
+			"password": "Amela12",
+			"confirmPassword": "Amela12",
+			"errorPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。",
+			"errorConfirmPassword": "8の最小文字数文字以上32の最大文字数文字以下でご入力ください。"
 		}
 	]
 }

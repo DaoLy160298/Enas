@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Headless Chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.452">
+  <properties />
+  
+  
+            <testcase name="TC01a_Check_UI_Menu" time="8.452" classname="ProjectEnas.CF203_First_Last_Name" />
+      
+</testsuite>

@@ -14,9 +14,19 @@
 	<test name="Run on Headless Chrome">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<!--<class name="ProjectEnas.UserRegister_Step1_SendEmail" />-->
-			<class name="ProjectEnas.DemoDrapDrop" />
-		<!--	<class name="ProjectEnas.UserLogin" />
+			<!--<class name="ProjectEnas.CF201_Email" />
+			<class name="ProjectEnas.CF204_Phone" />-->
+			<class name="ProjectEnas.CF203_Full_Name" />
+		<!--<class name="ProjectEnas.CF204_Phone" />
+			<class name="ProjectEnas.CF210_Website" />
+			<class name="ProjectEnas.CF212" />
+			<class name="ProjectEnas.CF301_UploadFile" />
+			<class name="ProjectEnas.CF303_Matrix" />
+			<class name="ProjectEnas.CF304_EnterText1Line" />
+			<class name="ProjectEnas.CF305_EnterTextMultiLine" />
+			<class name="ProjectEnas.CF306_SelectImage" />
+			<class name="ProjectEnas.CF307_SelectOption" />-->
+			<!--<class name="ProjectEnas.UserLogin" />
 			<class name="ProjectEnas.UserRestPW" />-->
 		</classes>
 	</test>

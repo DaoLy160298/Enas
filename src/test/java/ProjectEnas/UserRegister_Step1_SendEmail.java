@@ -40,13 +40,13 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 		userData = UserDataMapper.getUserData();
 
 		userLoginPage = PageGeneratorManager.getUserLogin(driver);
-		log.info("Click text lin Create account");
+		log.info("Click text link Create account");
 		userRegisterCA200Page = userLoginPage.clickCreateAccountLink();
 		
 	}
 
 	@Test
-	public void CA200_01__CheckUI() {
+	public void CA200_01_CheckUI() {
 		log.info("Verify text title");
 		userRegisterCA200Page.isDisplayTextTitleCA200();
 		log.info("Check color, font-size");
@@ -91,7 +91,7 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 	}
 
 	@Test
-	public void CA201_04_CheckUI() throws InterruptedException {
+	public void CA201_04_CheckUI(){
 		log.info("Access screen CA201");
 		userRegisterCA200Page.clickAgreeCheckbox();
 		log.info("Click button Register Mail");
@@ -149,9 +149,8 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 		userRegisterCA201Page.inputValue("名前", userData.getNameInputs().get(3).getName());
 
 	}
-
 	@Test
-	public void CA201_07_Check_Name_InValid() {
+	public void CA201_07_Check_Name_InValid_Format() {
 		log.info("Input Name Number fullwidth " + userData.getNameInputs().get(3).getName());
 		userRegisterCA201Page.inputValue("名前", userData.getNameInputs().get(3).getName());
 		Assert.assertEquals(userRegisterCA201Page.getTextError("名前"), userData.getNameInputs().get(3).geterrorName());
@@ -166,6 +165,10 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 		log.info("Verify display error");
 		Assert.assertEquals(userRegisterCA201Page.getTextError("名前"), userData.getNameInputs().get(5).geterrorName());
 
+	}
+
+	@Test
+	public void CA201_07_Check_Name_InValid_Length() {
 		log.info("Input Name has 1 character " + userData.getNameInputs().get(6).getName());
 		userRegisterCA201Page.inputValue("名前", userData.getNameInputs().get(6).getName());
 		log.info("Verify display error");
@@ -177,7 +180,7 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 		Assert.assertEquals(userRegisterCA201Page.getTextError("名前"), userData.getNameInputs().get(7).geterrorName());
 
 	}
-
+	
 	@Test
 	public void CA201_08_Check_Email_Valid() {
 		log.info("Input Valid Email" + userData.getEmailInputs().get(0).getEmail());
@@ -202,7 +205,7 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 	}
 
 	@Test
-	public void CA201_09_Check_Email_InValid() {
+	public void CA201_09_Check_Email_InValid_Length(){
 		log.info("Input InValid Email" + userData.getEmailInputs().get(4).getEmail());
 		userRegisterCA201Page.inputValue("メールアドレス", userData.getEmailInputs().get(4).getEmail());
 		log.info("Verify display error");
@@ -214,7 +217,9 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 		log.info("Verify display error");
 		Assert.assertEquals(userRegisterCA201Page.getTextError("メールアドレス"),
 				userData.getEmailInputs().get(5).getErrorEmail());
-
+	}
+	@Test
+	public void CA201_09_Check_Email_InValid_Format(){
 		log.info("Input InValid Email" + userData.getEmailInputs().get(6).getEmail());
 		userRegisterCA201Page.inputValue("メールアドレス", userData.getEmailInputs().get(6).getEmail());
 		log.info("Verify display error");
@@ -282,7 +287,7 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 	}
 
 	@Test
-	public void CA201_11_Check_Password_InValid() {
+	public void CA201_11_Check_Password_InValid_Format() {
 		log.info("Input InValid Password" + userData.getPasswordInputs().get(3).getPassword());
 		userRegisterCA201Page.inputValue("パスワード", userData.getPasswordInputs().get(3).getPassword());
 		userRegisterCA201Page.inputValue("パスワード（確認）", userData.getPasswordInputs().get(3).getconfirmPassword());
@@ -381,7 +386,9 @@ public class UserRegister_Step1_SendEmail extends BaseTest {
 				userData.getPasswordInputs().get(13).geterrorPassword());
 		Assert.assertEquals(userRegisterCA201Page.getTextError("パスワード（確認）"),
 				userData.getPasswordInputs().get(13).geterrorConfirmPassword());
-
+	}
+	@Test
+	public void CA201_11_Check_Password_InValid_Length() {
 		log.info("Input InValid Password" + userData.getPasswordInputs().get(14).getPassword());
 		userRegisterCA201Page.inputValue("パスワード", userData.getPasswordInputs().get(14).getPassword());
 		userRegisterCA201Page.inputValue("パスワード（確認）", userData.getPasswordInputs().get(14).getconfirmPassword());
