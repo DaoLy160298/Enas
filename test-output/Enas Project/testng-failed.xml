@@ -10,13 +10,24 @@
   <test thread-count="5" name="Run on Headless Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="ProjectEnas.CF201_Email">
+      <class name="ProjectEnas.CF203_Full_Name">
         <methods>
-          <include name="TC01b_Check_UI_Form"/>
+          <include name="TC_01b_Check_UI_Default_Form"/>
+          <include name="TC_10_Check_Change_FirstName_Furigana"/>
+          <include name="TC_12_Check_change_value_Additional_Explanation"/>
+          <include name="TC_07_Check_Change_FirstName"/>
+          <include name="TC_06_Check_Change_LastName"/>
+          <include name="TC_03b_Check_Display_Item_Select_Name_Radiobutton_Form"/>
+          <include name="TC_11_Check_change_value_General_Explanation"/>
+          <include name="TC_05_Check_Change_Value_FullName_Title"/>
+          <include name="TC_04b_Check_Display_Item_Select_Name_Furigana_Radiobutton_Form"/>
+          <include name="TC_09_Check_Change_LastName_Furigana"/>
+          <include name="afterClass"/>
+          <include name="TC_08_Check_Change_FullName_Furigana_Title"/>
           <include name="beforeClass"/>
           <include name="initBeforeSuite"/>
         </methods>
-      </class> <!-- ProjectEnas.CF201_Email -->
+      </class> <!-- ProjectEnas.CF203_Full_Name -->
     </classes>
   </test> <!-- Run on Headless Chrome(failed) -->
 </suite> <!-- Failed suite [Enas Project] -->
